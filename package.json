@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "deploy": "flyctl deploy",
+    "dev": "nodemon index.js",
+    "logs:prod": "flyctl logs"
   },
   "author": "mutebi nuhu",
   "license": "MIT",
